@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Operators</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container-box text-center">
+        <h2 class="text-primary">JavaScript Operators</h2>
+        <p><strong>GIVEN:</strong> A = 30.27, B = 6.18</p>
+
+        <div class="output-box">
+            <p><strong>Exponent:</strong> <span id="exp">•••••••••••</span></p>
+            <p><strong>Modulo:</strong> <span id="mod">••••••</span></p>
+        </div>
+        <button class="btn btn-custom" onclick="document.getElementById('exp').textContent = '1421205113.82'; document.getElementById('mod').textContent = '5.55';">SHOW ANSWER</button>
+
+        <div class="output-box">
+            <p><strong>Is A greater than B?</strong> <span id="greater">••••</span></p>
+            <p><strong>Is A equal to B?</strong> <span id="equal">••••</span></p>
+        </div>
+        <button class="btn btn-custom" onclick="document.getElementById('greater').textContent = 'true'; document.getElementById('equal').textContent = 'false';">SHOW ANSWER</button>
+
+        <div class="output-box">
+            <p><strong>(a <= b) && (a >= b):</strong> <span id="logic1">••••</span></p>
+            <p><strong> (a != b) || (a == b)</strong> <span id="logic2">••••</span></p> 
+        </div>
+        <button class="btn btn-custom" onclick="document.getElementById('logic1').textContent = 'false'; document.getElementById('logic2').textContent = 'true';">SHOW ANSWER</button>
+
+        <button class="btn btn-custom mt-3" onclick="window.location.reload()">REFRESH</button>
+    </div>
+            <!-- footer -->
+            <div class="footer text-center py-4">
+                <h4>Phoebe Catimbang | 9-Topaz</h4>
+            </div>
+</body>
+</html>
+

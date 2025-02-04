@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #27445D
+}
+.container-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.output-box {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.btn-custom {
+    background-color: #73C7C7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-custom:hover {
+    background-color: #71BBB2;
+}
+
+.footer{
+    bottom: 0;
+    position: fixed;
+    background-color: #497D74;
+    width: 100%;
+    padding: 5px;
+}
